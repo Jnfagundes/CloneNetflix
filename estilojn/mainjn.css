@@ -1,0 +1,41 @@
+/*Configuração geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Criando as variáveis*/
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+/*Configurando o body*/
+body{
+    background:var(--preto) ;
+    font-family: Arial, Times, serif;
+    color: white;
+}
+/*Configurando o topo do site*/
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 3em;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+header nav a:hover{
+    color: #FFF;
+}
